@@ -8,22 +8,22 @@ It implements analytic formulas, numerical calculations, and statistical simulat
 
 ## Project Structure
 
-├── alpha_and_beta_max_and_min.py # Compute simplified vs. normal deflection angles α and β
-├── ces_selection.py # Select objects/events for case studies (CES = Candidate Event Selection)
-├── data.py # Utility data and constants (e.g., astronomical units)
-├── dual_deflection.py # Model dual-body deflection scenarios
-├── impact_ranges.py # Evaluate ranges of impact parameters
-├── maximum_deflection_alphamax.py # Compute maximum deflection angle (α_max)
-├── mass_and_radius.py # Planetary masses and radii dictionary
-├── mean_and_std.py # Monte Carlo statistics (mean/std) for deflection values
-├── projection_and_distance.py # Geometry utilities: distance, projection, impact parameter
-│
-├── tests/ # Unit tests (pytest-based)
-│ ├── test_alpha_and_beta_max_and_min.py
-│ ├── test_mass_and_radius.py
-│ ├── test_maximum_deflection_alphamax.py
-│ ├── test_mean_and_std.py
-│ └── test_projection_and_distance.py
+├── alpha_and_beta_max_and_min.py # Compute simplified vs. normal deflection angles α and β  
+├── ces_selection.py # Select objects/events for case studies (CES = Candidate Event Selection)  
+├── data.py # Utility data and constants (e.g., astronomical units)  
+├── dual_deflection.py # Model dual-body deflection scenarios  
+├── impact_ranges.py # Evaluate ranges of impact parameters  
+├── maximum_deflection_alphamax.py # Compute maximum deflection angle (α_max)  
+├── mass_and_radius.py # Planetary masses and radii dictionary  
+├── mean_and_std.py # Monte Carlo statistics (mean/std) for deflection values  
+├── projection_and_distance.py # Geometry utilities: distance, projection, impact parameter  
+│  
+├── tests/ # Unit tests (pytest-based)  
+│ ├── test_alpha_and_beta_max_and_min.py  
+│ ├── test_mass_and_radius.py  
+│ ├── test_maximum_deflection_alphamax.py  
+│ ├── test_mean_and_std.py  
+│ └── test_projection_and_distance.py  
 
 
 ## Requirements
